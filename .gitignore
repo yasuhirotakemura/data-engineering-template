@@ -218,3 +218,20 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Project secrets and generated state
+.env
+.env.*
+!.env.example
+**/profiles.yml
+!**/profiles.yml.example
+*.key
+*.ppk
+*.pem
+*credential*.json
+*service-account*.json
+.venv/
+**/target/
+**/logs/
+**/dbt_packages/
+*.duckdb
