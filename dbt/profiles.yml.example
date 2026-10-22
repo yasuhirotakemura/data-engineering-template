@@ -1,0 +1,7 @@
+data_engineering_template:
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      path: "target/dev.duckdb"
+      threads: 4

@@ -1,0 +1,10 @@
+version: 2
+
+models:
+  - name: stg_sample__orders
+    description: "Seedを使用したローカル動作確認用のモデル"
+    columns:
+      - name: order_id
+        data_tests:
+          - not_null
+          - unique

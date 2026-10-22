@@ -1,0 +1,16 @@
+{
+  "recommendations": [
+    "ms-python.python",
+    "ms-python.vscode-python-envs",
+    "charliermarsh.ruff",
+    "innoverio.vscode-dbt-power-user",
+    "dorzey.vscode-sqlfluff",
+    "anthropic.claude-code",
+    "redhat.vscode-yaml",
+    "tamasfe.even-better-toml",
+    "mechatroner.rainbow-csv",
+    "eamodio.gitlens",
+    "EditorConfig.EditorConfig",
+    "yzhang.markdown-all-in-one"
+  ]
+}

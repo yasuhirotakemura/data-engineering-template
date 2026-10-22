@@ -1,0 +1,10 @@
+version: 2
+
+models:
+  - name: fct_sample_orders
+    description: "Sample mart for local dbt verification"
+    columns:
+      - name: order_id
+        data_tests:
+          - not_null
+          - unique
